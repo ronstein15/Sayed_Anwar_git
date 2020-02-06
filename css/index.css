@@ -1,0 +1,96 @@
+.main-header {
+    font-size: 2rem;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.main-header .img {
+    width: 90px;
+    color:#1bbc9c;
+}
+
+.main-header>h1 {
+    font-size: 1em;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.main-header>.coming-soon {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.main-header>.sub-title {
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.countdown-section {
+    text-align: center;
+    background-color: #16a085;
+    color: #ffffff;
+}
+
+.countdown-section>.container {
+    max-width: 540px;
+}
+
+.countdown-section .timer-group>.title {
+    font-size: 4rem;
+    font-weight: 300;
+}
+
+.article-section {
+    background-color: #1abc9c;
+    color: #ffffff;
+    font-size:1.2rem;
+    line-height:1.8;
+}
+
+.article-section .context{
+
+    font-size:2rem;
+}
+
+.txtbox {
+    font-size: 1em;
+    display: inline-block;
+    height: 52px;
+    width: 60%;
+    vertical-align: middle;
+}
+
+.email-group * {
+    border-radius: 0;
+    font-size: 1.2rem;
+}
+
+.email-group .form-control {
+    padding: 12px;
+    height: calc(1.5em + .75rem + 7px);
+}
+
+.btn-search {
+    background-color: #1a8874;
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+.quotation-section {
+    font-size: 1rem;
+    line-height:1.8;
+    background-color: #eeeeee;
+}
+
+.icon {
+    display: inline-block;
+    color:#999999;
+}
